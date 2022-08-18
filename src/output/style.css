@@ -1,0 +1,30 @@
+.jumbotron {
+    background-image: linear-gradient(to bottom right, rgba(97, 12, 12, 0), rgba(58, 83, 155, 1));
+    color: goldenrod;
+    text-shadow: black 1px 1px;
+}
+
+body {
+    background-color: #b9690e91;
+}
+
+.card-custom {
+    background-color: rgb(179, 186, 207);
+    color: #000000;
+    text-shadow: white 1px 1px;
+    max-width: 500px;
+}
+
+.employee {
+    padding-left: 2px;
+}
+
+/* .intern {
+    
+}
+.engineer {
+    
+}
+.manager {
+    
+} */

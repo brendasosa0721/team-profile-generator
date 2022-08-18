@@ -4,9 +4,9 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 
 //require team files
-const Engineer = require("./lib/engineer");
-const Manager = require("./lib/manager");
-const Intern = require("./lib/intern");
+const Engineer = require("../lib/engineer");
+const Manager = require("../lib/manager");
+const Intern = require("../lib/intern");
 
 //create array for roles
 const managers = [];
@@ -179,7 +179,7 @@ const managerQuestions = () => {
 
 //delete html file in none
 const deleteHtml = () => {
-  fs.unlinkSync("./index.html");
+  fs.unlinkSync("./output/index.html");
 };
 
 //append top html

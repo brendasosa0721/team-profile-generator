@@ -1,6 +1,6 @@
 .jumbotron {
-    background-image: linear-gradient(to bottom right, rgba(97, 12, 12, 0), rgb(230, 147, 147));
-    color: rgb(97, 9, 9);
+    background-image: linear-gradient(to bottom right, lightskyblue);
+    color: palevioletred;
     text-shadow: white 1px 1px;
     flex-direction: auto;
     display: inline;
@@ -55,4 +55,4 @@ body {
         }
     }
 
- 
+}

@@ -2,13 +2,13 @@ const Employee = require('../lib/employee');
 
 // Initialize testing
 
-describe("Employee", () =>{
-    //should return empty string
-    it("should initiate an object", () => {
-        const obj = new Employee();
-        expect(typeof(obj)). toEqual("object");
+describe("Employee", () => {
+    describe("Initialization" , () => {
+        it("should initiate an object", () => {
+            const obj = new Employee();
+            expect (typeof(obj)).toEquall("object");
+        });
     });
-});
 
 //test for name object
 

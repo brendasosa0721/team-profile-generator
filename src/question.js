@@ -222,7 +222,7 @@ const generateHTML = () => {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="./dist/style.css">
+        <link rel="stylesheet" href="./output/style.css">
     <title>Team Generator</title>
 </head>
 <body>
@@ -235,13 +235,12 @@ const generateHTML = () => {
     </div>`;
 };
 
-//add intern card html
+
 const generateIntern = (intern) => {
   return `<div class="container mb-3 card-custom shadow-lg border-primary rounded">
     <div class="row">
         <div class="team-area col-12 d-flex justify-content-center">
             <h2 class="intern">Intern
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-helicopter" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                     <path d="M3 10l1 2h6" />
                     <path d="M12 9a2 2 0 0 0 -2 2v3c0 1.1 .9 2 2 2h7a2 2 0 0 0 2 -2c0 -3.31 -3.13 -5 -7 -5h-2z" />
@@ -270,7 +269,6 @@ const generateEng = (engineer) => {
     <div class="row">
         <div class="team-area col-12 d-flex justify-content-center">
             <h2 class="engineer">Engineer
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-alien" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M11 17a2.5 2.5 0 0 0 2 0" />
                 <path d="M12 3c-4.664 0 -7.396 2.331 -7.862 5.595a11.816 11.816 0 0 0 2 8.592a10.777 10.777 0 0 0 3.199 3.064c1.666 1 3.664 1 5.33 0a10.777 10.777 0 0 0 3.199 -3.064a11.89 11.89 0 0 0 2 -8.592c-.466 -3.265 -3.198 -5.595 -7.862 -5.595z" />
@@ -290,13 +288,12 @@ const generateEng = (engineer) => {
 </div>`;
 };
 
-//add manager card html
+
 const generateMgr = (manager) => {
   return `<div class="container mb-3 card-custom shadow-lg border-primary rounded">
     <div class="row">
         <div class="team-area col-12 d-flex justify-content-center">
             <h2 class="manager">Manager
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-drone" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                 <path d="M10 10h4v4h-4z" />
                 <line x1="10" y1="10" x2="6.5" y2="6.5" />
@@ -321,7 +318,6 @@ const generateMgr = (manager) => {
 </div>`;
 };
 
-//add bottom of html doc
 const generateBtm = () => {
   return `</body>
     </html>`;

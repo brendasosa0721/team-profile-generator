@@ -1,30 +1,58 @@
 .jumbotron {
-    background-image: linear-gradient(to bottom right, rgba(97, 12, 12, 0), rgba(58, 83, 155, 1));
-    color: goldenrod;
-    text-shadow: black 1px 1px;
+    background-image: linear-gradient(to bottom right, rgba(97, 12, 12, 0), rgb(230, 147, 147));
+    color: rgb(97, 9, 9);
+    text-shadow: white 1px 1px;
+    flex-direction: auto;
+    display: inline;
 }
+/* Body styling*/
 
 body {
-    background-color: #b9690e91;
+    background-color: oldlace;
 }
+
+/*card styling*/
 
 .card-custom {
-    background-color: rgb(179, 186, 207);
+    background-color: lightgoldenrodyellow;
     color: #000000;
-    text-shadow: white 1px 1px;
+    text-shadow: whitesmoke 1px 1px;
     max-width: 500px;
+    border-radius: 15px;
+    transition: all .2s ease-in-out; /*the transition of the growing*/
+    border-style: double;
+    
+    
 }
 
-.employee {
-    padding-left: 2px;
+.card-custom:hover{
+    cursor: pointer;
+    transition: 1s;
+    background-color:pink;
+    color: purple;
+    transform: scale(1.1); /*growing during hovering*/
+    
 }
 
-/* .intern {
-    
+
+/*Media query*/
+/* screen 600px*/
+@media only screen and (max-width: 600px){
+    body{
+        background-color:lightsalmon ;
+    }
 }
-.engineer {
-    
-}
-.manager {
-    
-} */
+
+@media only screen and (max-width: 600px){
+    .jumbotron{
+        background-color: lightskyblue;
+        color: black;
+    }
+
+    @media only screen and (max-width: 600px){
+        .card-custom{
+            background-color: bisque;
+        }
+    }
+
+ 

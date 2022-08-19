@@ -9,7 +9,7 @@ describe("Employee", () => {
             expect (typeof(obj)).toEquall("object");
         });
     });
-
+})
 //test for name object
 
 describe("Name", () => {

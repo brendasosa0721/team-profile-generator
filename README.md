@@ -31,8 +31,8 @@ Github : https://github.com/brendasosa0721/team-profile-generator
 
 # Video 
 
-[
-](https://watch.screencastify.com/v/GgCtddezoFFv7Xulu6oW)
+https://drive.google.com/file/d/1SNkn_oQZfEo12uDQiRtlUapYLP1XIzQs/view?usp=sharing
+
 # Constribution
 
 Made by Brenda Sosa

@@ -31,7 +31,7 @@ Github : https://github.com/brendasosa0721/team-profile-generator
 
 # Video 
 
-https://drive.google.com/file/d/1SNkn_oQZfEo12uDQiRtlUapYLP1XIzQs/view?usp=sharing
+https://drive.google.com/file/d/1RneraVEniwY_10JIZDSiaG2U-t6iqE4S/view?usp=sharing
 
 # Constribution
 

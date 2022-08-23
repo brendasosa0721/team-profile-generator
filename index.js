@@ -28,11 +28,7 @@ const compileTeamMember = () => {
         question1();
       } else {
         console.log(managers, engineers, interns);
-        // module.exports = managers;
-        // module.exports = engineers;
-        // module.exports = interns;
-        // deleteHtml(); 
-        fs.unlinkSync("./index.html")
+       fs.writeFileSync("./index.html" , "")
         topHtmlFile();
         managerGenerator();
         engineerGenerator();
@@ -302,7 +298,7 @@ const generateMgr = (manager) => {
                 <path d="M14.04 18a3.5 3.5 0 1 0 3.96 -3.96" />
                 <line x1="10" y1="14" x2="6.5" y2="17.5" />
                 <path d="M6 14.04a3.5 3.5 0 1 0 3.96 3.96" />
-            <
+            
             </h2>
         </div>
     </div>
